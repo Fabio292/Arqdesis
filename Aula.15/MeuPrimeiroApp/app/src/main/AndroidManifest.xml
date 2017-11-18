@@ -16,7 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayMessageActivity"></activity>
+        <activity android:name=".DisplayMessageActivity" />
+        <activity
+            android:name=".ListarClientesActivity"
+            android:label="@string/title_activity_listar_clientes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetalheClienteActivity" />
+        <activity
+            android:name=".AdiconarClienteActivity"
+            android:label="@string/title_activity_adiconar_cliente"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

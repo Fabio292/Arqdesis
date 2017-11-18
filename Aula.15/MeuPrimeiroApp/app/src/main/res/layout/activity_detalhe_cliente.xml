@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="www.usjt.br.meuprimeiroapp.MainActivity">
+    tools:context="www.usjt.br.meuprimeiroapp.DetalheClienteActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -25,21 +25,15 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp">
 
-        <EditText
-            android:id="@+id/edit_message"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:text="@string/edit_message" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/button_send"
-            android:onClick="sendMessage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nome_selecionado"
+            android:textStyle="bold" />
+
+
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

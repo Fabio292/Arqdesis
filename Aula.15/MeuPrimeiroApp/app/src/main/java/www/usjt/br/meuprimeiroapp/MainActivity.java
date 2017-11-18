@@ -7,25 +7,22 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-
+    private EditText nome;
+    public static final String CHAVE = "br.usjt.arqdesis.cliente.chave";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        nome = (EditText)findViewById(R.id.buscar_nome_cliente);
     }
 
-public final static String EXTRA_MESSAGE = "br.ujst.meuprimeiroapp.MESSAGE";
-    public void sendMessage(View view){
 
 
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        EditText editText = (EditText) findViewById(R.id.edit_message);
-        String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+    public void buscarClientes(View view){
+        Intent intent = new Intent(this, ListarClientesActivity.class);
+        String chave = nome.getText().toString();
+        intent.putExtra(CHAVE, chave);
         startActivity(intent);
-
     }
-
-
 
 }

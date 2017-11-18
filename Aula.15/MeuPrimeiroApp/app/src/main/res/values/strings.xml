@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MeuPrimeiroApp</string>
+    <string name="buscar_cliente">nome do cliente</string>
+    <string name="botao_busca">Buscar</string>
+    <string name="title_activity_listar_clientes">ListarClientesActivity</string>
+    <string name="title_activity_adiconar_cliente">AdiconarClienteActivity</string>
+</resources>
