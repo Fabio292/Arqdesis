@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;br.usjt.ofical.project&apos; to &apos;br.usjt.oficial.project&apos;" description="Rename resource &apos;br.usjt.ofical.project&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/br.usjt.ofical.project" name="br.usjt.oficial.project" stamp="1492617812270" updateReferences="true"/>
-</session>
